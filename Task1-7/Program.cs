@@ -13,7 +13,6 @@ namespace Task1_7
             char[] Ru = RUalp.ToCharArray(); //EN Алфавит в масиве
             string n = Console.ReadLine();// Ввод строки шифрования
             n=n.ToLower();
-            
             char[] InStr = n.ToCharArray();// Входящая строка в масив
             Console.WriteLine("Задайте смещение.");
             int num=0, i, offset=Convert.ToInt32(Console.ReadLine());//Ввод смещения
