@@ -22,7 +22,9 @@ namespace Task1_7
             Calculator calc = new Calculator();
             calc.Calculations();
             Crypton cry = new Crypton();
-            cry.Ceasar();       
+            cry.Ceasar();
+            FigureCheck fgr = new FigureCheck();
+            fgr.FigureChecking();
 
 
         }
