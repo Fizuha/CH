@@ -6,7 +6,7 @@ namespace Task1_7.FirstTasks
     {
         public void Ceasar()
         {
-            
+             
             string RUalp = "абвгдеёжзийклмнопрстуфхцчшщъыьэюя";
             string ENalp = "abcdefghijklmnopqrstuvwxyz";
             char[] En = ENalp.ToCharArray(); //РУ Алфавит в масиве
@@ -17,21 +17,23 @@ namespace Task1_7.FirstTasks
             char[] InStr = n.ToCharArray();// Входящая строка в масив
             Console.WriteLine("Задайте смещение.");
             int num=0, i, offset=Convert.ToInt32(Console.ReadLine());//Ввод смещения
-            for (i = 0; i < n.Length; i++)
-            {
-                num = RUalp.IndexOf(InStr[i]);
-                if (num < 0)
+                for (i = 0; i < n.Length; i++)
                 {
-                    num = ENalp.IndexOf(InStr[i]);
-                    if (num + offset > ENalp.Length) num -= ENalp.Length;
-                    Console.Write(En[num + offset]);
+                    num = RUalp.IndexOf(InStr[i]);
+                    if (num < 0)
+                    {
+                        num = ENalp.IndexOf(InStr[i]);
+                        if (num + offset > ENalp.Length) num -= ENalp.Length;
+                        Console.Write(En[num + offset]);
+                    }
+                    else
+                    {
+                        if (num + offset > RUalp.Length) num -= RUalp.Length;
+                        Console.Write(Ru[num + offset]);
+                    }
                 }
-                else
-                {
-                    if (num + offset > RUalp.Length) num -= RUalp.Length;
-                    Console.Write(Ru[num + offset]);
-                }
+            Console.WriteLine(n);
             }
         }
     }
-}
+

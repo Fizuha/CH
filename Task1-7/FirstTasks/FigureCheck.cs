@@ -31,6 +31,7 @@ namespace Task1_7.FirstTasks
                     Console.WriteLine(IsTriangle(a, b, c));
                     break;
                 case 2:
+
                     break;
                 default:
                     Console.WriteLine("Перевірте правильність вводу");
