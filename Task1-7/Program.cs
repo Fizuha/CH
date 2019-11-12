@@ -28,15 +28,20 @@ namespace Task1_7
                fgr.FigureChecking();
                Fibonachi fbn = new Fibonachi();
                fbn.FibCount();*/
-            // First rev = new First();
-             //rev.Revers();
-             //Second pal = new Second();
-             //pal.palindrome();
-            //Third rwo = new Third();
-           // rwo.revwordord();
-            Forth rew = new Forth();
-            rew.revEachWord();
+             First rev = new First();
+             rev.Revers();
+             Second pal = new Second();
+             pal.palindrome();
+             Third rwo = new Third();
+             rwo.revwordord();
+             Forth rew = new Forth();
+             rew.revEachWord();
+             Fifth cC = new Fifth();
+             cC.charCount();
+             Six rD = new Six();
+             rD.remDouple();
             
+
 
 
 

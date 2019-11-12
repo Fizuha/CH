@@ -9,16 +9,21 @@ namespace Task1_7.Task_2
         public void revEachWord()
         {
             string inp = Console.ReadLine();
-            
-            string[] str = inp.Split(' ');
-            
+            string word = "";
+            char[] str=inp.ToCharArray();
             Array.Reverse(str);
             
-            for (int i = str.Length - 1; i >= 0; i--)
+            for (int i = str.Length-1; i >= 0; i--)
             {
-                Console.Write(str[i] + " ");
+                word = str[i] + word;
+                if(str[i]==' ')
+                {
+                    Console.Write(word);
+                    word = "";
+                }
+                
             }
-
+            Console.Write(" "+word);
         } 
     }
 }
