@@ -39,8 +39,11 @@ namespace Task1_7
              Fifth cC = new Fifth();
              cC.charCount();
              Six rD = new Six();
-             rD.remDouple();
-            
+            rD.remDouple();
+                Seven ss = new Seven();
+            ss.substring();
+
+
 
 
 

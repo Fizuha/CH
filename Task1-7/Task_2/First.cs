@@ -8,6 +8,7 @@ namespace Task1_7.Task_2
     {
         public void Revers()
         {
+            Console.WriteLine("\nEnter string to get reversed string");
             string inp=Console.ReadLine();
             string outp= "";
             for(int i = inp.Length-1; i >= 0; i--)

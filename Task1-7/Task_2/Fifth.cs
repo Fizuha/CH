@@ -8,6 +8,7 @@ namespace Task1_7.Task_2
     {
         public void charCount()
         {
+            Console.WriteLine("\nEnter string to count characters");
             string inp = Console.ReadLine();
             char[] str = inp.ToCharArray();
             string ready="";

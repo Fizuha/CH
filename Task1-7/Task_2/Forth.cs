@@ -8,6 +8,7 @@ namespace Task1_7.Task_2
     {
         public void revEachWord()
         {
+            Console.WriteLine("\nReversing of each word");
             string inp = Console.ReadLine();
             string word = "";
             char[] str=inp.ToCharArray();

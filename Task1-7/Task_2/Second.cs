@@ -8,6 +8,7 @@ namespace Task1_7.Task_2
     {
         public void palindrome()
         {
+            Console.WriteLine("\nEnter string to check if it is palindrome");
             bool outp = true;
             string inp=Console.ReadLine();
             inp.ToCharArray();

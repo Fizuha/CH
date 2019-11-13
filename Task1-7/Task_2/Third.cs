@@ -8,7 +8,7 @@ namespace Task1_7.Task_2
     {
         public void revwordord()
         {
-            
+            Console.WriteLine("\nReverse order of words");
             string inp=Console.ReadLine();
             string[] wrd=inp.Split(' ');
             for(int i = wrd.Length - 1; i >=0 ; i--)
