@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using Task1_7.FirstTasks;
 using Task1_7.Task_2;
+using Task1_7.Task_3;
 
 namespace Task1_7
 {
@@ -28,20 +29,26 @@ namespace Task1_7
                fgr.FigureChecking();
                Fibonachi fbn = new Fibonachi();
                fbn.FibCount();*/
-             First rev = new First();
-             rev.Revers();
-             Second pal = new Second();
-             pal.palindrome();
-             Third rwo = new Third();
-             rwo.revwordord();
-             Forth rew = new Forth();
-             rew.revEachWord();
-             Fifth cC = new Fifth();
-             cC.charCount();
-             Six rD = new Six();
-            rD.remDouple();
-                Seven ss = new Seven();
-            ss.substring();
+            /*   First rev = new First();
+               rev.Revers();
+               Second pal = new Second();
+               pal.palindrome();
+               Third rwo = new Third();
+               rwo.revwordord();
+               Forth rew = new Forth();
+               rew.revEachWord();
+               Fifth cC = new Fifth();
+               cC.charCount();
+               Six rD = new Six();
+              rD.remDouple();
+                  Seven ss = new Seven();
+              ss.substring();*/
+            Fractional fr = new Fractional();
+            Console.WriteLine(fr.Add(12.3,11.1));
+            Console.WriteLine(fr.Sub(12.3,11.1));
+            Console.WriteLine(fr.Mul(12.3,11.1));
+            Console.WriteLine(fr.Check(12.3,11.1));
+            
 
 
 
