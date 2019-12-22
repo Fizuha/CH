@@ -43,18 +43,30 @@ namespace Task1_7
               rD.remDouple();
                   Seven ss = new Seven();
               ss.substring();*/
+              //3.1 Fractional
             Fractional fr = new Fractional();
             Console.WriteLine(fr.Add(12.3,11.1));
             Console.WriteLine(fr.Sub(12.3,11.1));
             Console.WriteLine(fr.Mul(12.3,11.1));
             Console.WriteLine(fr.Check(12.3,11.1));
-            
-
-
-
-
-
-
+            //3.2_Money
+            Money bal = new Money();
+            bal.UAH = 534;
+            bal.COIN = 345;
+            CalcMoney c = new CalcMoney();
+            double sum=c.Conc(bal.UAH, bal.COIN);
+            Console.WriteLine(c.Add(sum, 4));
+            Console.WriteLine(c.Sub(sum, 4));
+            Console.WriteLine(c.Mul(sum, 4));
+            Console.WriteLine(c.Div(sum, 4));
+            Console.WriteLine(c.Check(sum, 4));
+            //3.3 Equal trapezoid
+            int N = Convert.ToInt32(Console.ReadLine());
+             Trapezoid  []T =  new Trapezoid[N];
+            for(int i =0;i<N;i++)
+            {
+                T[i] = new Trapezoid();
+            }          
         }
     }
 }
