@@ -60,7 +60,7 @@ namespace Task1_7
             Console.WriteLine(c.Mul(sum, 4));
             Console.WriteLine(c.Div(sum, 4));
             Console.WriteLine(c.Check(sum, 4));
-            //3.3 Equal trapezoid
+            //3.3 Equal trapezoid 
             int N = Convert.ToInt32(Console.ReadLine());
              Trapezoid  []T =  new Trapezoid[N];
             for(int i =0;i<N;i++)
